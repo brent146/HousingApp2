@@ -80,7 +80,16 @@ namespace HousingApp
         }
         public override string ToString()
         {
-            return homeAddress + " " + homeType + " " + YearBuilt;
+            return string.Format("Address: {0}\n" + 
+                "Home Type: {1:C\n" +
+                "Year Built: {2:C}\n" +
+                "Home Units: {3:C}\n" +
+                "Rent: {4:C}\n" +
+                "Square Footage: {5:C}\n" +
+                "Beds: {6:C}\n" +
+                "Baths: {7:C}\n" +
+                "Has Porch?: {8:C}\n" +
+                "Garage Available?: {9:C}", );
         }
 
         //public int GetUnits()

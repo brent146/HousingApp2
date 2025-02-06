@@ -15,7 +15,8 @@ namespace HousingApp
         private bool hasPorch;
         private bool garageAvailable;
 
-        public SingleFamily(string hAddr, string hType, int yBuilt, int hUnits, decimal rPerUnit, int sFoot, int nBeds, int nBaths, bool hPorch, bool gAvail)
+        public SingleFamily(string hAddr, string hType, int yBuilt, int hUnits, decimal rPerUnit, 
+            int sFoot, int nBeds, int nBaths, bool hPorch, bool gAvail)
             : base(hAddr, hType, yBuilt, hUnits)
         {
             rentPerUnit = rPerUnit;
